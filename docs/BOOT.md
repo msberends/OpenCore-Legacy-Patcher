@@ -58,7 +58,9 @@ Now that you've loaded OpenCore, "select Install macOS":
 
 ![](../images/oc-boot.png)
 
-You will soon reach the installer screen! If you enabled verbose mode when building OCLP, a lot of text will run across the screen. From there, it's just like any normal macOS install. For an example of how the boot process looks, see the following video:
+You will soon reach the installer screen! If you enabled verbose mode when building OCLP, a lot of text will run across the screen. From there, it's just like any normal macOS install. If your internal disk does not appear at the menu to select the target drive, be sure to have it formatted as GUID with APFS. Disk Utility is available on the initial install screen.
+
+For an example of how the boot process looks, see the following video:
 
 * [OpenCore Legacy Patcher Boot Process](https://www.youtube.com/watch?v=AN3zsbQV_n4)
 
